@@ -54,20 +54,19 @@ const Footer = () => {
               <div className="flex items-center space-x-2">
                 <MapPin className="h-4 w-4 text-accent" />
                 <span className="text-sm text-primary-foreground/80">
-                  Rua da Justiça, 123<br />
-                  1000-001 Lisboa
+                  Estrada Carlos Pereira, Estoril
                 </span>
               </div>
               <div className="flex items-center space-x-2">
                 <Phone className="h-4 w-4 text-accent" />
                 <span className="text-sm text-primary-foreground/80">
-                  +351 21 123 4567
+                  20302143
                 </span>
               </div>
               <div className="flex items-center space-x-2">
                 <Mail className="h-4 w-4 text-accent" />
                 <span className="text-sm text-primary-foreground/80">
-                  info@tribunal.pt
+                  tsr.beira@ts.gov.mz
                 </span>
               </div>
             </div>

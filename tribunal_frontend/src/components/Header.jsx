@@ -25,8 +25,11 @@ const Header = ({ user, onLogout }) => {
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <Scale className="h-8 w-8 text-accent" />
-            <span className="text-xl font-bold">Tribunal</span>
+            <img src="/assets/logo.png" alt="Logo" className="h-12 w-12" />
+            <div className="flex flex-col">
+              <span className="text-xl font-bold">República de Moçambique</span>
+              <span className="text-sm">Tribunal Superior de Recurso da Beira</span>
+            </div>
           </Link>
 
           {/* Desktop Navigation */}
